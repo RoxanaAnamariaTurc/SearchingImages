@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(193, 215, 234);
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+}
+
+header {
+    text-align: center;
+    font-size: 100px;
+    font-family: monospace;
+    color: cadetblue;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-family: monospace;
+    font-size: 2em;
+    color: cadetblue;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+}
